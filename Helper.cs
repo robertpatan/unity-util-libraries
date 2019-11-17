@@ -257,7 +257,16 @@ class Helper : MonoBehaviour
         rt.offsetMax = new Vector2(rt.offsetMax.x, top);
         rt.offsetMin = new Vector2(rt.offsetMin.x, bottom);
     }
+    
+    public static void SetHeight(ref RectTransform rt, int height)
+    {
+        rt.sizeDelta = new Vector2(rt.sizeDelta.x, height);
+    }
     // END RECT UTILS
+    
+    
+    
+    
     
     
 }

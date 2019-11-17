@@ -35,6 +35,10 @@ namespace Utils
                 {"share", "Share"},
                 {"with_friends", "With friends"},
                 {"next_level", "Next Level"},
+                {"tutorial_title", "How to play"},
+                {"tutorial_content", "Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!"},
+                {"remove_ads_title", "Remove ads title"},
+                {"remove_ads_content", "content here"},
             };
         }
 
